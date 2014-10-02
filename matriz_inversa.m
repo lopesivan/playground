@@ -4,10 +4,13 @@
 
 (* matriz A *)
 A = {{2, 3}, {1, -1}}
+MatrixForm[A]
 
 (* matriz B *)
 B = Inverse[A]
+MatrixForm[B]
 
 
 (* matriz I *)
-A.B
+MatrixForm[A.B]
+
